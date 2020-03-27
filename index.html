@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="top">
+        <h1>QUIZ COMPETATION</h1>
+    </div>
+    <h1>This is the best quiz ever</h1>
+    <form id="quiz" name="quiz">
+        <p>What is the capital of Pakistan ?</p>
+        <input id="textbox" type="text" name="question1">
+        <p>What makes you the most perfect ?</p>
+        <input type="radio" id="mc"  name="question2" value="Cleverness">Cleverness<br>
+        <input type="radio" id="mc"  name="question2" value="Over-rated">Over-rated<br>
+        <p>What is the capital of China?</p>
+        <input type="radio" id="mc"  name="question3" value="Beiging">Beiging<br>
+        <input type="radio" id="mc" name="question3" value="Wuhan">Wuhan<br>
+        <input id="button" type="button" value="Im finished" onclick = "check();">
+
+    </form>
+    <div  id="after_sumbit">
+    <p id="message"></p>
+    <p id="num_correct"></p>
+    <img id="picture">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
